@@ -1,4 +1,6 @@
-# ssh config file
-Host *
-      PasswordAuthentication no
-      IdentifyFile ~/.ssh/school
+/usr/bin/env bash
+# Client configuration file
+
+Host <100.25.142.251>
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
